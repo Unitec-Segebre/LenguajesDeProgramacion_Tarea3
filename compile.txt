@@ -1,0 +1,6 @@
+kotlinc -include-runtime tarea3.kt -d tarea3.jar
+java -jar tarea3.jar
+PAUSE
+
+kotlinc -include-runtime -cp gson-2.6.2.jar tarea3.kt -d tarea3.jar
+java -cp "gson-2.6.2.jar;tarea3.jar" Tarea3Kt
